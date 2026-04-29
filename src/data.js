@@ -1,5 +1,3 @@
-const base = import.meta.env.BASE_URL
-
 const projects = [
   {
     name: "Cardiovascular Risk Assessment",
