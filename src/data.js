@@ -7,7 +7,7 @@ const projects = [
     image: "https://i.postimg.cc/FHvqPd8W/image.png",
     tags: ["Python", "ML", "Data Analysis"],
     github: "https://github.com/RahulDwivedi205/G11_DVA_Capstone",
-    live: "https://portfolio-website-mocha-xi-30.vercel.app/"
+    live: "https://docs.google.com/spreadsheets/d/1GaOiBl-1Sb5tEx1u_0V1A0bZIkZrJKNOeL-GtxrP1mQ/edit?usp=sharing"
   },
   {
     name: "UK-Road-Safety-Analysis",
