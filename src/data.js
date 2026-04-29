@@ -13,7 +13,7 @@ const projects = [
     image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
     tags: ["Python", "Pandas", "Data Cleaning", "Tableau"],
     github: "https://github.com/Deepanshu-Nst/SectionE_G-4_UK-Road-Safety",
-    live: "https://github.com/Deepanshu-Nst/SectionE_G-4_UK-Road-Safety"
+    live: "https://public.tableau.com/app/profile/dev.kothari/viz/UKAccidentAnalysis2_17774736712620/Dashboard1"
   }
 ]
 
