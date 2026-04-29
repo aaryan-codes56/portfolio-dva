@@ -2,21 +2,19 @@ export default function Sidebar(){
   return(
     <aside className="sidebar">
       <img
-        src={`${import.meta.env.BASE_URL}meri_photo.jpg`}
+        src={`${import.meta.env.BASE_URL}profile.png`}
         alt="Profile"
         className="sidebar-avatar"
       />
-      <h1 className="sidebar-name">Aadit Vachher</h1>
-      <p className="sidebar-username">aadit-vachher</p>
+      <h1 className="sidebar-name">Aaryan Krishna</h1>
+      <p className="sidebar-username">aaryan-codes56</p>
       <p className="sidebar-bio">
-        Data analytics enthusiast with strong skills in Python, Excel, Tableau, Looker Studio, and Google Sheets, focused on
-extracting insights, building dashboards, and solving real-world problems using data. Experienced in working with datasets
-and performing analysis. Also i have a leetcode rating of 1800+ with 800+ questions
+        Data Analytics enthusiast with a strong command of Python, Excel, Tableau, and Looker Studio. Passionate about transforming complex datasets into actionable insights and intuitive dashboards to solve real-world business challenges. Strong problem-solver with over 140+ algorithmic challenges solved on LeetCode.
       </p>
 
       <a
-        href={`${import.meta.env.BASE_URL}Aadit Vachher DVA.pdf`}
-        download="Aadit_Vachher_Resume.pdf"
+        href={`${import.meta.env.BASE_URL}Aaryan_Krishna_Resume.pdf`}
+        download="Aaryan_Krishna_Resume.pdf"
         className="sidebar-follow-btn"
       >
         Download Resume
@@ -33,13 +31,13 @@ and performing analysis. Also i have a leetcode rating of 1800+ with 800+ questi
           <svg viewBox="0 0 16 16" width="16" height="16" fill="#8b949e">
             <path d="M1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0114.25 14H1.75A1.75 1.75 0 010 12.25v-8.5C0 2.784.784 2 1.75 2zM1.5 12.251c0 .138.112.25.25.25h12.5a.25.25 0 00.25-.25V5.809L8.38 9.397a.75.75 0 01-.76 0L1.5 5.809v6.442zm13-8.181v-.32a.25.25 0 00-.25-.25H1.75a.25.25 0 00-.25.25v.32L8 7.88z"/>
           </svg>
-          <a href="mailto:vacaadit@gmail.com">vacaadit@gmail.com</a>
+          <a href="mailto:aaryankrishna009@gmail.com">aaryankrishna009@gmail.com</a>
         </div>
         <div className="sidebar-info-item">
           <svg viewBox="0 0 16 16" width="16" height="16" fill="#8b949e">
             <path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"/>
           </svg>
-          <a href="https://www.linkedin.com/in/aadit-vachher-29b48b245/" target="_blank" rel="noreferrer">linkedin.com/in/aadit-vachher</a>
+          <a href="https://www.linkedin.com/in/aaryan-krishna-840217317/" target="_blank" rel="noreferrer">linkedin.com/in/aaryan-krishna</a>
         </div>
       </div>
 
@@ -47,20 +45,10 @@ and performing analysis. Also i have a leetcode rating of 1800+ with 800+ questi
         <h3 className="sidebar-orgs-title">Skills</h3>
         <div className="sidebar-orgs-list">
           <span className="org-pill">Python</span>
-          <span className="org-pill">TypeScript</span>
-          <span className="org-pill">JavaScript</span>
-          <span className="org-pill">SQL</span>
-          <span className="org-pill">NoSQL</span>
-          <span className="org-pill">HTML</span>
-          <span className="org-pill">React</span>
-          <span className="org-pill">Node.js</span>
-          <span className="org-pill">Express JS</span>
-          <span className="org-pill">Prisma ORM</span>
-          <span className="org-pill">PostgreSQL</span>
-          <span className="org-pill">MySQL</span>
-          <span className="org-pill">NumPy</span>
-          <span className="org-pill">Pandas</span>
           <span className="org-pill">Excel</span>
+          <span className="org-pill">Tableau</span>
+          <span className="org-pill">Looker Studio</span>
+          <span className="org-pill">Google Sheets</span>
         </div>
       </div>
     </aside>
